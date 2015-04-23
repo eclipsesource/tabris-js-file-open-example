@@ -1,0 +1,8 @@
+{
+  "title": "Tabris.js File Open Example",
+  "description": "A Tabris.js example demonstrating downloading a file and opening it with a default app.",
+  "main": "app.js",
+  "dependencies": {
+    "tabris": "https://tabrisjs.com/downloads/nightly/tabris.tgz"
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget
+    id="com.eclipsesource.tabris.js.example.cordova-file-open"
+    version="0.0.1"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0"
+    xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Tabris.js File Open Example</name>
+    <description>
+      A Tabris.js example demonstrating downloading a file and opening it with a default app.
+    </description>
+    <access origin="*" />
+    <preference name="EnableDeveloperConsole" value="true"/>
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="https://github.com/pwlin/cordova-plugin-file-opener2" />
+</widget>
