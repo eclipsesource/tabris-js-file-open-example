@@ -18,7 +18,7 @@ var localFileName = tabris.create("TextInput", {
 
 tabris.create("Button", {
   text: "Download",
-  layoutData: {top: [mimeTypeInput, 15], centerX: 0}
+  layoutData: {top: [localFileName, 15], centerX: 0}
 }).appendTo(page).on("select", function() {
   fileTransfer.download(
     urlInput.get("text"),
